@@ -1,9 +1,9 @@
 export interface ISeat {
-  number: number,
-  coachName: string,
-  booking_reference: string,
-  is_reserved: boolean,
-  id: string,
+  number: number;
+  coachName: string;
+  booking_reference: string;
+  is_reserved: boolean;
+  id: string;
 }
 
 export class Seat implements ISeat {
@@ -18,11 +18,10 @@ export class Seat implements ISeat {
   }
 
   get is_reserved(): boolean {
-    return !!this.booking_reference
+    return !!this.booking_reference;
   }
 
   get id(): string {
     return `${this.coachName}${this.number}`;
   }
-
 }

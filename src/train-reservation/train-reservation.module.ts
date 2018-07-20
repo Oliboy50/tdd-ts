@@ -4,6 +4,6 @@ import { TrainDataService } from './services/api/train-data-service';
 import { BookingReferenceService } from './services/api/booking-reference-service';
 
 @Module({
-  providers: [ReservationService, TrainDataService, BookingReferenceService]
+  providers: [ReservationService, TrainDataService, BookingReferenceService],
 })
 export class TrainReservationModule {}

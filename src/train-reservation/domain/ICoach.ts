@@ -1,8 +1,8 @@
-import {ISeat} from "./ISeat";
+import { ISeat } from './ISeat';
 
 export interface ICoach {
-  name: string,
-  seats: ISeat[]
+  name: string;
+  seats: ISeat[];
 }
 
 export class Coach implements ICoach {

@@ -1,4 +1,4 @@
 export interface IBookingConfirmation {
-  bookingReference: string,
-  seats: string[]
+  bookingReference: string;
+  seats: string[];
 }

@@ -1,7 +1,7 @@
-import {ICoach} from "./ICoach";
+import { ICoach } from './ICoach';
 
 export interface ITrain {
-  coaches: ICoach[],
+  coaches: ICoach[];
 }
 
 export class Train implements ITrain {
